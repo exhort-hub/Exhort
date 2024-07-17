@@ -70,8 +70,8 @@ int main(void) {
                 if (isInside) {
                      // 移除小球:
                     // 1. 把当前小球和最后一个小球换位
-                    ctx.balls[i] = ctx.balls[ctx.ballCount - 1]; // 最后小球换到当前小球的位置
-                    ctx.ballCount -= 1;
+                    // ctx.balls[i] = ctx.balls[ctx.ballCount - 1]; // 最后小球换到当前小球的位置
+                    // ctx.ballCount -= 1;
                     printf("No. %d\r\n", i);
                    
                 } else {
