@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "raylib.h": "c",
+        "physics2d.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
